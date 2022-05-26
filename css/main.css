@@ -1,19 +1,82 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     text-align: center;
+    background-color: aliceblue;
+    /* background-image: url(../img/photo-1533035353720-f1c6a75cd8ab.avif); */
 }
 
-table{
-    border: 0px;
+.information {
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 7px;
+    position: absolute;
+    /* left: 100px; */
+}
+
+/* .tbody {
+    height: 500px;
+    width: 500px;
     margin: auto;
     box-sizing: border-box;
     border-spacing: 2px;
-     
+    padding: 30px;
+} */
+
+tr{
+    height: 40px;
+    width: 40px;
+}
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    /* font-size: 10px; */
+    color: white;
+    box-shadow: inset -3px -5px 3px 0px #3d3939;
+    background-color: rgb(94 94 94);
 }
 
-.board{
-    width: 200px;
+table {
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    box-sizing: border-box;
+    border-spacing: 2px;
+    padding: 30px;
+    /* background-color: gray; */
+}
+
+.restart:hover {
+    cursor: pointer;
+}
+
+.new-game {
+    border-radius: 5px;
+    transition: 0.5s;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-color: gray;
+    background-color: rgb(151, 150, 150);
+}
+
+.new-game:hover {
+    border: 0px;
+    background-color: rgb(71, 69, 69);
+    color: rgb(197, 192, 192);
+    cursor: pointer;
+}
+
+.occupited {
+    background-color: gray;
+    color: whitesmoke;
+}
+
+.mine-show {
+    background-color: rgb(191, 26, 26);
 }

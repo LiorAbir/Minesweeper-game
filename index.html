@@ -11,16 +11,20 @@
 
 <body onload="inIt()">
     <h1>Minesweeper</h1>
-    <button class="restart" onclick="inIt()">😁</button>
+    <h1 class="restart" onclick="inIt()">😁</h1>
+    <div class="information">
     <h3>Timer: <span class="timer"></span></h3>
     <h3>Lives: <span class="lives"></span></h3>
-    <table border="1" cellpadding="20">
+    <!-- <h3>Hints: <span class="hints"></span></h3> -->
+    </div>
+    <table>
       <tbody class="board" onc></tbody>
     </table>
+    <button class="new-game" onclick="restart(4, 2)">Eazy</button>
+    <button class="new-game" onclick="restart(8, 12)">Medium</button>
+    <button class="new-game" onclick="restart(12, 30)">Expert</button>
     <script src="js/main.js"></script>
     <script src="js/utils.js"></script>
 </body>
 
 </html>
-
-<!-- border="1" cellpadding="20" -->
