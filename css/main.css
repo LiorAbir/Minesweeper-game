@@ -42,8 +42,8 @@ tr{
 }
 
 table {
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
     margin: auto;
     box-sizing: border-box;
     border-spacing: 2px;
@@ -77,6 +77,10 @@ table {
     color: whitesmoke;
 }
 
-.mine-show {
-    background-color: rgb(191, 26, 26);
+.lives:hover{
+cursor:pointer;
+}
+
+.hints:hover{
+cursor: pointer;
 }
